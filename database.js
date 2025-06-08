@@ -17,7 +17,7 @@ app.get("/", function(req,res)
 {
     res.sendFile(path.join(__dirname, "index.html"))
 })
-app.post('/post', function(req,res,)
+app.post('/', function(req,res,)
 {
     console.log(req.body);
     const fname = req.body.firstName;
